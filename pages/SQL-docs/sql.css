@@ -1,0 +1,288 @@
+@media screen and (min-width: 200px) and (max-width: 1990px) {
+  body{
+  
+    background: rgb(0,168,255);
+    background: radial-gradient(circle,  #F08080 0%, #000 800%);
+
+}
+
+
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background: rgb(240,128,128);
+background: linear-gradient(180deg, rgba(240,128,128,1) 6%, rgba(232,124,124,1) 26%, rgba(192,103,103,1) 55%, rgba(145,78,78,1) 71%, rgba(121,65,65,1) 80%, rgba(96,51,51,1) 86%, rgba(74,39,39,1) 92%, rgba(0,0,0,1) 100%);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  border-right: none;
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* NABVAR-CLASS */
+
+.propsNavbar{
+  height:80px;
+  margin-top: -1px;
+  margin-bottom: 2rem;
+
+  z-index: 100;
+ 
+  font-size:15px;
+  width:100%;
+ }
+
+.li-menu_desktop{
+    padding-right:4rem;
+  }
+  .ul-navbar-menu-res{
+      margin-top:-4px;
+      position: relative;
+  }
+
+  .container-navbar-menu{
+      margin-left:27.3%;
+    padding:0.5rem;
+    position:absolute;
+    top:6px;
+    left:-6px;
+   
+   }
+.button-menu{
+  margin-left: 10rem;
+  margin-top: 1.5rem;
+  background: rgb(240,128,128);
+  background: radial-gradient(circle, rgba(240,128,128,1) 6%, rgba(232,124,124,1) 42%, rgba(213,114,114,1) 68%, rgba(197,105,105,1) 77%, rgba(148,79,79,1) 100%, rgba(0,0,0,1) 100%);
+}
+
+
+
+
+   .letter-title{
+     width:1.5rem;
+     height:3.7rem;
+     margin-top: 1rem;
+    margin-left: 0.5rem;
+   }
+   .font-s-title{
+    display: flex;
+   }
+  #s-style{
+    width:5rem;
+  }
+  #d-style{
+    width: 1.5rem;
+  }
+  #dev{
+    font-size:2.2rem !important;
+    margin-left: -16px;
+    color:white;
+    transition: color 1s;
+  }
+  #dev:hover{
+    color: white;
+  }
+
+
+
+
+     
+/* FIRST CONTENT  */
+
+.cont-1_section1{
+    
+    margin-top: 5rem;
+    padding:10px;
+}
+
+
+
+/* CONTENIDO MAS CODIGO */
+
+
+.contenedor-code{
+    background-color: #f6f3f3;
+    border-radius: 0.3rem;
+
+
+}
+.color-yellow{
+  color: rgb(252, 142, 6);
+}
+.color-violet{
+  color: rgb(146, 18, 201);
+}
+.color-rojo{
+  color: red;
+}
+.color-verde{
+  color: rgb(3, 91, 5);
+}
+.color-azul{
+    color: blue;
+}
+.color-coments{
+   color: grey;
+}
+
+.explication-1{
+    margin-top:3rem;
+    font-size: 1.6rem;
+}
+
+#ejemplo1{
+   width: 34.5rem;
+}
+#ejemplo2{
+   width: 50rem;
+   height: 13rem;
+}
+#ejemplo3{
+  width: 54rem;
+  height: 26rem;
+}
+#ejemplo4{
+  width: 60rem;
+}
+#ejemplo5{
+  width: 33.8rem;
+  height: 15rem;
+}
+#ejemplo6{
+  width: 27rem;
+  height: 13.5rem;
+}
+#ejemplo7{
+  width: 60rem;
+}
+#ejemplo-mini1{
+   width: 20rem;
+   height: 7rem;
+}
+#ejemplo-mini2{
+  width: 26.5rem;
+  height: 7rem;
+}
+#ejemplo-mini3{
+  width: 33rem;
+  height: 7rem;
+}
+#ejemplo-mini4{
+  width: 43rem;
+  height: 7rem;
+}
+#ejemplo-mini5{
+  width: 35rem;
+  height: 7rem;
+}
+#ejemplo-mini6{
+  width: 29rem;
+  height: 6rem;
+}
+#ejemplo-mini7{
+  width: 26.5rem;
+  height: 5.5rem;
+}
+#ejemplo-mini8{
+  width: 26rem;
+  height: 5.5rem;
+}
+#ejemplo-mini9{
+  width: 54rem;
+  height: 4rem;
+}
+#ejemplo-mini10{
+  width: 54em;
+  height: 4rem;
+}
+#ejemplo-mini11{
+  width: 54rem;
+  height: 4rem;
+}
+#ejemplo-mini12{
+  width: 54rem;
+  height: 6rem;
+}
+#ejemplo-mini13{
+  width: 62.4rem;
+  height: 4rem;
+}
+#ejemplo-mini14{
+  width: 41rem;
+  height: 6rem;
+}
+
+.explication-2{
+    font-size: 1.6;
+}
+
+
+
+
+
+  
+
+
+/* CONTENT  */
+
+.first-content{
+    font-size: 1.6rem;
+    color:rgba(255,255,255,1);
+    margin-top: 2rem;
+    }
+
+
+/*  FOOTER */
+
+    .style-footer{
+        margin: 10rem 1rem 1rem 9rem;
+    }
+    .style-row-footer{
+        width:100%;
+      
+    
+    }
+    .link-container{
+      display: flex;
+      justify-content: flex-end;
+
+    }
+    .git-container{
+      display: flex;
+      justify-content: flex-start;
+    }
+    #linkedin-img{
+      width: 4rem;
+      height: 4rem;
+      margin-right:0.5rem;
+    }
+    #github-img{
+        width: 4rem;
+        height: 4rem;
+        margin-left:0.5rem;
+    }
+
+/* ID */
+#seba1{
+    position: absolute;
+    top: 9.7rem;
+    right: 58rem;
+    margin:10px;
+    height: 10rem;
+    width:10rem;
+    
+}
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,32 @@
+.proyect-card-container{
+    background: #00a8ff;
+    /* background: radial-gradient(circle, rgba(0,168,255,1) 14%, rgba(0,139,211,1) 56%, rgba(0,116,176,1) 81%, rgba(0,68,102,1) 98%, rgba(0,77,116,1) 100%, rgba(0,100,151,1) 100%, rgba(0,0,0,1) 100%); */
+    box-shadow: 3rem;
+    border-radius:1rem;
+}
+
+
+.dis-flx1{
+    display:flex;
+    margin-top: 10rem;
+}           
+
+.dis-button-flex{
+    display:flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+
+}
+.acor-container{
+    background-color:none;
+
+}
+.acor-item{
+    outline: none;
+    border: none;
+}
+.card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

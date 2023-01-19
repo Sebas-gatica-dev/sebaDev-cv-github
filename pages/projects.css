@@ -1,0 +1,62 @@
+.proyect-card-container{
+    background: #00a8ff;
+    /* background: radial-gradient(circle, rgba(0,168,255,1) 14%, rgba(0,139,211,1) 56%, rgba(0,116,176,1) 81%, rgba(0,68,102,1) 98%, rgba(0,77,116,1) 100%, rgba(0,100,151,1) 100%, rgba(0,0,0,1) 100%); */
+    box-shadow: 3rem;
+    border-radius:1rem;
+}
+
+.input-video-explicativo{
+    text-decoration: none;
+}
+.dis-flx1{
+    display:flex;
+    margin-top: 10rem;
+}           
+
+.dis-button-flex{
+    display:flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+
+}
+.acor-container{
+    background-color:none;
+
+}
+.acor-item{
+    outline: none;
+    border: none;
+}
+.card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#card-seba-dev{
+    background: #FF8C00;
+  }
+  .titulo-card-seba{
+     font-size: 1rem ;
+  }
+  .subtitulo-card-seba{
+      font-size: 1rem ;
+  }
+  
+  #card-react{
+      background: rgb(11,81,160);
+      background: linear-gradient(174deg, rgba(11,81,160,1) 38%, rgba(0,255,255,1) 100%);
+      border: none;
+  }
+  #card-nodejs{
+   background: #9ACD32;
+  }
+  #card-sql{
+      background: #F08080;
+  
+  }
+  #card-express{
+      color:black;
+      background: #F5F5DC;
+  }

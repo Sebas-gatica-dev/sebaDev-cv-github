@@ -1,0 +1,1774 @@
+
+
+
+//responsive
+@media(min-width: 546px){
+
+    body{
+        // background: rgb(2,0,36);
+        // background: radial-gradient(circle, #020024 0%, #00a8ff6b 100%);
+        background: rgb(0,168,255);
+        background: radial-gradient(circle, #00a8ff 0%, #020024 100%);
+    
+    }
+    
+    
+  
+    //cards
+
+.my-container{
+    margin: 0 auto;
+    width: 90%;
+    max-width:1200px;
+}
+
+.alto-100{
+    margin-top: 77rem;
+}
+
+.d-flex img{
+    width: 80px;
+
+}
+
+.fondo-card{
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position:85% top;
+}
+.express-titulo{
+    font-size: xx-large;
+}
+
+
+    //NABVAR-CLASS
+
+.li-menu_desktop{
+    padding-right:4rem;
+  }
+  .ul-navbar-menu{
+      margin-top:-4px;
+      position: relative;
+  }
+
+  .container-navbar-menu{
+    margin-left:27.3%;
+    padding:0.5rem;
+    position:absolute;
+    top:6px;
+    left:-6px;
+   
+   }
+
+   //hover de los botnoces del navbar
+   .font-size_a_lg{
+    font-size:1.5rem !important;
+    background-color: #0B51A0;
+    transition: background-color 3s;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px #020024;
+  }
+ 
+ .font-size_a_lg:hover{
+ background: radial-gradient(circle, #0B51A0 , #020024 100%);
+ cursor:pointer;
+
+ }
+
+
+   
+   .propsNavbar{
+    height:80px;
+    margin-top: -96px;
+    position:fixed;
+    z-index: 100;
+    background: rgb(11,81,160);
+    background: linear-gradient(7deg, rgba(11,81,160,1) 0%, rgba(2,0,36,1) 100%);
+    font-size:15px;
+    
+   }
+
+
+   .letter-title{
+     width:1.5rem;
+     height:3.7rem;
+   }
+   .font-s-title{
+    display: flex;
+   }
+  #s-style{
+    width:5rem;
+  }
+  #d-style{
+    width: 1.5rem;
+  }
+  #dev{
+    font-size:2.2rem !important;
+    margin-left: -16px;
+    color:white;
+    transition: color 1s;
+  }
+  #dev:hover{
+    color: white;
+  }
+
+
+     
+
+
+
+     //RELOJ
+
+
+ //reloj responsive
+    // .reloj{
+    
+    //     display:none;
+    // }
+    // .reloj div{
+    //     display:none;
+    // }
+
+    .reloj{
+        background: linear-gradient(#00a8ff,#020024);
+        border: 2px solid #000;
+        display:inline-flex;
+        position: fixed;
+        margin-left:1100px;
+        border-radius:0.5rem;
+    }
+    .reloj div {
+        color: #fff;
+        padding: 5px 9px;
+        font-size: 20px;
+        font-family: monospace;
+       
+    }
+    .hora{
+     border-right:1px solid #000;
+    }
+    .minutos{
+        border-right:1px solid #000;
+    }
+
+
+
+
+
+
+
+
+//CONTENT-HOME
+
+.fila{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+.cont-1_section1{
+    
+    margin-top: 5rem;
+    padding:10px;
+}
+
+.first-content{
+    font-size: 1.6rem;
+    color:rgba(255,255,255,1);
+    margin-top: 20rem;
+    }
+.first-content-p1{
+   margin-left:11.4rem;
+   margin-top: 2.4rem;
+}
+.first-content-p2{
+ margin-top: 0.5rem;
+}
+
+
+
+//INFO-PROYECT-CARD
+
+.tarjeta-info-proyect{
+    width: 100%;
+    height:22rem;
+    border-radius: 0.5rem;
+    background-color: #733FC8;
+    padding:1.5rem;
+    box-shadow: 1rem 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin-top: 3rem;
+}
+.tarjeta-info-font{
+    color: #fff;
+    font-size: 1.5rem;
+  
+}
+.margin-special{
+    margin-top:8rem;
+}
+
+.tarjeta-info-a{
+    color:#230c47;
+    text-decoration: none;
+}
+.tarjeta-sql-info{
+    width: 100%;
+    height:5rem;
+    border-radius: 0.5rem;
+    background-color: #F08080;
+    padding:1.5rem;
+    box-shadow: 1rem 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin-top: 4rem;
+    padding-left: 3.5rem;
+    font-size: 1.22rem;
+    padding-bottom: 4rem;
+    
+}
+
+.tarjeta-info-sql-a{
+color: pink;
+text-decoration: none;
+transition: color 1s;
+font-size: 1.54rem;
+}
+.tarjeta-info-sql-a:hover{
+    color: pink;
+}
+
+#tarjeta-info-bootstrap{
+    position:absolute;
+    left: 23.5rem;
+    width:5rem;
+    height:5rem;
+    transition: width 1s, height 1s;
+    
+}
+#tarjeta-info-bootstrap:hover{
+    width: 6rem;
+    height: 6rem;
+}
+
+#tarjeta-info-imgMas{
+    position:absolute;
+    left: 35rem;
+}
+
+#tarjeta-info-imgSass{
+    position:absolute;
+    left: 47rem;
+    width:5rem;
+    height:5rem;
+    transition: width 1s, height 1s ;
+}
+#tarjeta-info-imgSass:hover{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+
+
+//CONTENT-TEXT
+
+.history-text{
+    font-size: 1.6rem;
+}
+.history-text-a{
+    text-decoration: none;
+    color:rgb(18, 2, 47);
+    font-size: 1.6rem;
+    transition: color 0s;
+}
+.history-text-a:hover{
+    color:rgb(18, 2, 47);
+}
+
+
+
+
+
+//FOOTER
+
+.style-footer{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.style-row-footer{
+    width:100%;
+ 
+
+}
+#linkedin-img{
+  width: 4rem;
+  height: 4rem;
+  margin-right:0.5rem;
+}
+#github-img{
+    width: 4rem;
+    height: 4rem;
+    margin-left:0.5rem;
+}
+
+// IDS
+
+#nav-first-li-a{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#nav-second-li-a{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+#nav-thirt-li-a{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+
+#img-welcome{
+    width:18rem;
+    height: 19rem;
+    position: absolute;
+    left:29rem;
+    transition: width 1s, height 1s;
+}
+#img-welcome:hover{
+    width: 19rem;
+    height: 20rem;
+
+}
+
+
+#seb1{
+    position: absolute;
+    top: 23.2rem;
+    right: 58rem;
+    margin:10px;
+    height: 10rem;
+    width:10rem;
+}
+
+#title-myname{
+     color: #fff;
+     font-size: 2rem !important;
+     transition:color 0.2s, font-weight 2.5s;
+}
+
+#title-myname:hover {
+    color:#1a174c !important;
+    font-weight: 300 !important;
+}
+
+
+#card-seba-dev{
+    background: #FF8C00;
+  }
+  .titulo-card-seba{
+     font-size: 1rem ;
+  }
+  .subtitulo-card-seba{
+      font-size: 1rem ;
+  }
+  
+  #card-react{
+      background: rgb(11,81,160);
+      background: linear-gradient(174deg, rgba(11,81,160,1) 38%, rgba(0,255,255,1) 100%);
+      border: none;
+  }
+  #card-nodejs{
+   background: #9ACD32;
+  }
+  #card-sql{
+      background: #F08080;
+  
+  }
+  #card-express{
+      color:black;
+      background: #F5F5DC;
+  }
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:645px){
+
+    body{
+        font-size: 1px;
+        // background: rgb(2,0,36);
+        // background: radial-gradient(circle, #020024 0%, #00a8ff6b 100%);
+        background: rgb(0,168,255);
+        background: radial-gradient(circle, #00a8ff 0%, #020024 100%);
+    
+    }
+    
+    
+  
+    //cards
+
+
+
+.alto-100{
+    margin-top: 78rem;
+   
+}
+
+.d-flex img{
+    width: 80px;
+
+}
+.container-fifu{
+    width:40rem;
+    position: relative;
+    left: 3rem;
+}
+
+.fondo-card{
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position:85% top;
+}
+.express-titulo{
+    font-size: xx-large;
+}
+
+
+    //NABVAR-CLASS
+
+
+  
+  .container-navbar-menu-res{
+    margin-left:2.3%;
+    padding:0.5rem;
+    position:absolute;
+    top:6px;
+    left:-6px;
+   
+   }
+
+   .button-nav{
+    background: linear-gradient(7deg, rgba(2,0,36,1) 0%, rgba(11,81,160,1)  100%);
+    margin-left: 36rem;
+  
+  
+   }
+   .button-nav:focus{
+    background: linear-gradient(7deg, rgba(2,0,36,1) 0%, rgba(11,81,160,1)  100%);
+   
+   }
+   
+ 
+ 
+
+
+
+
+
+
+
+  .li-menu-res{
+    padding-right:4rem;
+  }
+  
+  
+  
+  
+  /* hover de los botnoces del navbar */
+   .font-size_a_lg{
+    font-size:1.4rem !important;
+    background-color: linear-gradient(7deg, rgba(2,0,36,1) 0%, rgba(11,81,160,1)  100%);;
+    transition: background-color 3s;
+    padding: 0.6rem;
+    margin-right: 0.9rem;
+   
+  }
+  
+  .font-size_a_lg:hover{
+  background: radial-gradient(circle, #0B51A0 0%, #000 2000%);
+  cursor:pointer;
+  
+  }
+  
+  
+   
+   .propsNavbar{
+    height:80px;
+    margin-top: -97px;
+    position:fixed;
+    z-index: 100;
+    background: rgb(11,81,160);
+    background: linear-gradient(7deg, rgba(11,81,160,1) 0%, rgba(2,0,36,1) 100%);
+    font-size:15px;
+    
+   }
+   .li-menu-res{
+    padding-right:4rem;
+  }
+  
+   .ul-navbar-menu-res{
+    position: fixed;
+    margin-left: 43.3rem;
+    background: linear-gradient(7deg, rgba(11,81,160,1) 0%, rgba(2,0,36,1)  100%);
+    margin-top: 4.1rem;
+  }
+  
+   .letter-title{
+     width:1.5rem;
+     height:3.7rem;
+   }
+   .font-s-title{
+    display: flex;
+   }
+  #s-style{
+    width:5rem;
+  }
+  #d-style{
+    width: 1.5rem;
+  }
+  #dev{
+    font-size:2.2rem !important;
+    margin-left: -16px;
+    color:white;
+    transition: color 1s;
+  }
+  #dev:hover{
+    color: white;
+  }
+  
+     
+
+
+//CONTENT-HOME
+
+.fila{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+.cont-1_section1{
+    
+    margin-top: 5rem;
+    padding:10px;
+}
+
+.first-content-resh{
+  font-size: 4.6rem;
+}
+.container-firts-content-res{
+    width:50rem;
+    
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.1rem;
+    grid-auto-rows: minmax(16rem, auto);
+}
+.first-content-p1-resh{
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    font-size: 2.1rem;
+    color:rgba(255,255,255,1);
+    margin-top: 2.9rem;   
+}
+
+
+.first-content-p1-resh2{
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    font-size: 2.1rem;
+    color:rgba(255,255,255,1);
+
+}
+
+
+.first-content-p2-resh{
+    font-size: 2.1rem;
+ margin-top: -3rem;
+}
+
+
+
+//INFO-PROYECT-CARD
+
+.tarjeta-info-proyect{
+    width: 100%;
+    height:22rem;
+    border-radius: 0.5rem;
+    background-color: #733FC8;
+    padding:1.5rem;
+    box-shadow: 1rem 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin-top: 3rem;
+    position: relative;
+    right: 1.7rem;
+}
+.tarjeta-info-font{
+    color: #fff;
+    font-size: 1.5rem;
+  
+}
+.margin-special{
+    margin-top:8rem;
+}
+
+.tarjeta-info-a{
+    color:#230c47;
+    text-decoration: none;
+}
+.tarjeta-sql-info{
+    width: 100%;
+    height:5rem;
+    border-radius: 0.5rem;
+    background-color: #F08080;
+    padding:1.5rem;
+    box-shadow: 1rem 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin-top: 4rem;
+    padding-left: 3.5rem;
+    font-size: 1.44rem;
+    padding-bottom: 4rem;
+    position: relative;
+    right: 1.7rem;  
+    padding-top:0.3rem;
+
+    
+}
+
+.tarjeta-info-sql-a{
+color: pink;
+text-decoration: none;
+transition: color 1s;
+font-size: 1.54rem;
+}
+.tarjeta-info-sql-a:hover{
+    color: pink;
+}
+
+#tarjeta-info-bootstrap{
+    position:absolute;
+    left: 12.5rem;
+    width:5rem;
+    height:5rem;
+    transition: width 1s, height 1s;
+    
+}
+#tarjeta-info-bootstrap:hover{
+    width: 6rem;
+    height: 6rem;
+}
+
+#tarjeta-info-imgMas{
+    position:absolute;
+    left: 21rem;
+}
+
+#tarjeta-info-imgSass{
+    position:absolute;
+    left: 29.9rem;
+    width:5rem;
+    height:5rem;
+    transition: width 1s, height 1s ;
+}
+#tarjeta-info-imgSass:hover{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+
+
+//CONTENT-TEXT
+
+.history-text{
+    font-size: 1.6rem;
+}
+.history-text-a{
+    text-decoration: none;
+    color:rgb(18, 2, 47);
+    font-size: 1.6rem;
+    transition: color 0s;
+}
+.history-text-a:hover{
+    color:rgb(18, 2, 47);
+}
+
+
+
+
+
+//FOOTER
+
+.style-footer{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.style-row-footer{
+    width:100%;
+ 
+
+}
+#linkedin-img{
+  width: 4rem;
+  height: 4rem;
+  margin-right: -5rem;
+}
+#github-img{
+    width: 4rem;
+    height: 4rem;
+    margin-left:8rem;
+}
+
+// IDS
+
+#nav-first-li-a{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#nav-second-li-a{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+#nav-thirt-li-a{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+
+#img-welcome{
+   display: none;
+}
+
+
+#seb1{
+    grid-column: 1 / 3;
+    grid-row: 1;
+    margin: 10px;
+    height: 12rem;
+    width: 14rem;
+    position: relative;
+    top: 1.5rem;
+    left: -0.5rem;
+    
+}
+
+#title-myname{
+     color: #fff;
+     font-size: 2rem !important;
+     transition:color 0.2s, font-weight 2.5s;
+}
+
+#title-myname:hover {
+    color:#1a174c !important;
+    font-weight: 300 !important;
+}
+
+
+#card-seba-dev{
+    background: #FF8C00;
+  }
+  .titulo-card-seba{
+     font-size: 1rem ;
+  }
+  .subtitulo-card-seba{
+      font-size: 1rem ;
+  }
+  
+  #card-react{
+      background: rgb(11,81,160);
+      background: linear-gradient(174deg, rgba(11,81,160,1) 38%, rgba(0,255,255,1) 100%);
+      border: none;
+  }
+  #card-nodejs{
+   background: #9ACD32;
+  }
+  #card-sql{
+      background: #F08080;
+  
+  }
+  #card-express{
+      color:black;
+      background: #F5F5DC;
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:300px){
+    body{
+        font-size: 1px;
+        // background: rgb(2,0,36);
+        // background: radial-gradient(circle, #020024 0%, #00a8ff6b 100%);
+        background: rgb(0,168,255);
+        background: radial-gradient(circle, #00a8ff 0%, #020024 100%);
+    
+    }
+    
+    
+  
+    //cards
+
+
+
+.alto-100{
+    margin-top: 50rem;
+   
+}
+
+.d-flex img{
+    width: 80rem;
+
+}
+.container-fifu{
+    width:40rem;
+    position: relative;
+    left: 3rem;
+}
+
+.fondo-card{
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position:85% top;
+}
+.express-titulo{
+    font-size: large;
+}
+
+
+    //NABVAR-CLASS
+
+
+  
+  .container-navbar-menu-res{
+    margin-left:2.3%;
+    padding:0.5rem;
+    position:absolute;
+    top:6rem;
+    left:-6rem;
+   
+   }
+
+   .button-nav{
+    background: linear-gradient(7deg, rgba(2,0,36,1) 0%, rgba(11,81,160,1)  100%);
+    margin-left: 36rem;
+  
+  
+   }
+   .button-nav:focus{
+    background: linear-gradient(7deg, rgba(2,0,36,1) 0%, rgba(11,81,160,1)  100%);
+   
+   }
+   
+ 
+ 
+
+
+
+
+
+
+
+  .li-menu-res{
+    padding-right:4rem;
+  }
+  
+  
+  
+  
+  /* hover de los botnoces del navbar */
+   .font-size_a_lg{
+    font-size:1.4rem !important;
+    background-color: linear-gradient(7deg, rgba(2,0,36,1) 0%, rgba(11,81,160,1)  100%);;
+    transition: background-color 3s;
+    padding: 0.6rem;
+    margin-right: 0.9rem;
+   
+  }
+  
+  .font-size_a_lg:hover{
+  background: radial-gradient(circle, #0B51A0 0%, #000 2000%);
+  cursor:pointer;
+  
+  }
+  
+  
+   
+   .propsNavbar{
+    width: ;
+    height:4rem;
+    margin-top: -7rem;
+    position:fixed;
+    z-index: 100;
+    background: rgb(11,81,160);
+    background: linear-gradient(7deg, rgba(11,81,160,1) 0%, rgba(2,0,36,1) 100%);
+    font-size:15rem;
+    
+   }
+   .li-menu-res{
+    padding-right:4rem;
+  }
+  
+   .ul-navbar-menu-res{
+    position: fixed;
+    margin-left: 43.3rem;
+    background: linear-gradient(7deg, rgba(11,81,160,1) 0%, rgba(2,0,36,1)  100%);
+    margin-top: 4.1rem;
+  }
+  
+   .letter-title{
+     width:1.5rem;
+     height:3.7rem;
+   }
+   .font-s-title{
+    display: flex;
+   }
+  #s-style{
+    width:5rem;
+  }
+  #d-style{
+    width: 1.5rem;
+  }
+  #dev{
+    font-size:2.2rem !important;
+    margin-left: -16rem;
+    color:white;
+    transition: color 1s;
+  }
+  #dev:hover{
+    color: white;
+  }
+  
+     
+
+
+//CONTENT-HOME
+
+.fila{
+    display: inline-block;
+    width: 100%;
+    height: 100rem;
+    background-color: transparent;
+}
+.cont-1_section1{
+    
+    margin-top: 5rem;
+    padding:10px;
+}
+
+.first-content-resh{
+  font-size: 4.6rem;
+}
+.container-firts-content-res{
+    width:50rem;
+    
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.1rem;
+    grid-auto-rows: minmax(16rem, auto);
+}
+.first-content-p1-resh{
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    font-size: 2.1rem;
+    color:rgba(255,255,255,1);
+    margin-top: 2.9rem;   
+}
+
+
+.first-content-p1-resh2{
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    font-size: 2.1rem;
+    color:rgba(255,255,255,1);
+
+}
+
+
+.first-content-p2-resh{
+    font-size: 2.1rem;
+ margin-top: -3rem;
+}
+
+
+
+//INFO-PROYECT-CARD
+
+.tarjeta-info-proyect{
+    width: 100%;
+    height:22rem;
+    border-radius: 0.5rem;
+    background-color: #733FC8;
+    padding:1.5rem;
+    box-shadow: 1rem 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin-top: 3rem;
+    position: relative;
+    right: 1.7rem;
+}
+.tarjeta-info-font{
+    color: #fff;
+    font-size: 1.5rem;
+  
+}
+.margin-special{
+    margin-top:8rem;
+}
+
+.tarjeta-info-a{
+    color:#230c47;
+    text-decoration: none;
+}
+.tarjeta-sql-info{
+    width: 100%;
+    height:5rem;
+    border-radius: 0.5rem;
+    background-color: #F08080;
+    padding:1.5rem;
+    box-shadow: 1rem 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
+    margin-top: 4rem;
+    padding-left: 3.5rem;
+    font-size: 1.44rem;
+    padding-bottom: 4rem;
+    position: relative;
+    right: 1.7rem;  
+    padding-top:0.3rem;
+
+    
+}
+
+.tarjeta-info-sql-a{
+color: pink;
+text-decoration: none;
+transition: color 1s;
+font-size: 1.54rem;
+}
+.tarjeta-info-sql-a:hover{
+    color: pink;
+}
+
+#tarjeta-info-bootstrap{
+    position:absolute;
+    left: 12.5rem;
+    width:5rem;
+    height:5rem;
+    transition: width 1s, height 1s;
+    
+}
+#tarjeta-info-bootstrap:hover{
+    width: 6rem;
+    height: 6rem;
+}
+
+#tarjeta-info-imgMas{
+    position:absolute;
+    left: 21rem;
+}
+
+#tarjeta-info-imgSass{
+    position:absolute;
+    left: 29.9rem;
+    width:5rem;
+    height:5rem;
+    transition: width 1s, height 1s ;
+}
+#tarjeta-info-imgSass:hover{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+
+
+//CONTENT-TEXT
+
+.history-text{
+    font-size: 1.6rem;
+}
+.history-text-a{
+    text-decoration: none;
+    color:rgb(18, 2, 47);
+    font-size: 1.6rem;
+    transition: color 0s;
+}
+.history-text-a:hover{
+    color:rgb(18, 2, 47);
+}
+
+
+
+
+
+//FOOTER
+
+.style-footer{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.style-row-footer{
+    width:100%;
+ 
+
+}
+#linkedin-img{
+  width: 4rem;
+  height: 4rem;
+  margin-right: -5rem;
+}
+#github-img{
+    width: 4rem;
+    height: 4rem;
+    margin-left:8rem;
+}
+
+// IDS
+
+#nav-first-li-a{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#nav-second-li-a{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+#nav-thirt-li-a{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+
+#img-welcome{
+   display: none;
+}
+
+
+#seb1{
+    grid-column: 1 / 3;
+    grid-row: 1;
+    margin: 10px;
+    height: 12rem;
+    width: 14rem;
+    position: relative;
+    top: 1.5rem;
+    left: -0.5rem;
+    
+}
+
+#title-myname{
+     color: #fff;
+     font-size: 2rem !important;
+     transition:color 0.2s, font-weight 2.5s;
+}
+
+#title-myname:hover {
+    color:#1a174c !important;
+    font-weight: 300 !important;
+}
+
+
+#card-seba-dev{
+    background: #FF8C00;
+  }
+  .titulo-card-seba{
+     font-size: 1rem ;
+  }
+  .subtitulo-card-seba{
+      font-size: 1rem ;
+  }
+  
+  #card-react{
+      background: rgb(11,81,160);
+      background: linear-gradient(174deg, rgba(11,81,160,1) 38%, rgba(0,255,255,1) 100%);
+      border: none;
+  }
+  #card-nodejs{
+   background: #9ACD32;
+  }
+  #card-sql{
+      background: #F08080;
+  
+  }
+  #card-express{
+      color:black;
+      background: #F5F5DC;
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//key frames
+
+
+
+
+
+//mixins
+
+//variables sass
+
+  
+$font-family-sans-serif: 'Barlow semi Condensed', sans-serif;
+$info: #0B51A0;
+$primary:#733FC8;
+$success: #49556B;
+$dark: #18202D;
+$secondary: #EDF2F8;
+
+
+
+
+
+// Revisar el archivo node_modules\bootstrap\scss\_variables.scss
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <nav class="navbar navbar-expand-lg bg-light position-absolute">
+    <div class="container-fluid  propsNavbar">
+      <a  id="title-myname" class="navbar-brand font-s-title" href="https://github.com/Sebas-gatica-dev" target="_blank">
+        <!-- <img id="s-style" class="letter-title" src="./images/s.svg" alt="S">
+        <img class="letter-title" src="./images/e.svg" alt="E">
+        <img class="letter-title" src="./images/b-letter.svg" alt="B"> -->
+        <img id="s-style" class="letter-title" src="../../images/sg.svg" alt="sg"><p id="dev" >.dev</p>
+        <!-- <img class="letter-title" src="./images/subtraction.svg" alt="guión">
+        <img id="d-style" class="letter-title" src="./images/d-letter.svg" alt="D">
+        <img class="letter-title" src="./images/e.svg" alt="E">
+        <img class="letter-title" src="./images/v.svg" alt=""> -->
+      </a>
+      <button class="navbar-toggler button-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <div class="collapse navbar-collapse container-navbar-menu container-navbar-menu-res" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-sm-info ul-navbar-menu ul-navbar-menu-res">
+          <li class="nav-item li-menu_desktop li-menu-res" id="special-carateristics-frist-li">
+            <a class="nav-link nav-link-res active text-white font-size_a_lg" id="nav-first-li-a" href="./index.html" aria-current="page" >Inicio</a>
+          </li>
+          <li class="nav-item li-menu_desktop li-menu-res">
+            <a class="nav-link nav-link-res text-white font-size_a_lg" id="nav-second-li-a" href="./pages/projects.html">Proyectos</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item intoDropdown" href="#">Action</a></li>
+              <li><a class="dropdown-item intoDropdown" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider intoDropdown"></li>
+              <li><a class="dropdown-item intoDropdown" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+          <li class="nav-item li-menu_desktop li-menu-res">
+            <a class="nav-link nav-link-res text-white font-size_a_lg" id="nav-thirt-li-a" href="./pages/history.html">Historia</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search proyect" aria-label="Search">
+          <button class="btn btn-outline-success bg-dark text-white" type="submit">Search</button>
+        </form> -->
+      
+      </div>
+      <div class="reloj">
+        <div class="hora">00</div>
+        <div class="minutos">00</div>
+        <div class="segundos">00</div>
+    </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class=" row ul-navbar-menu">
+        
+                                    <div class="col-4 li-menu_desktop" id="special-carateristics-frist-li">
+                                      <a class="nav-link nav-link-res active text-white font-size_a_lg" id="nav-first-li-a" href="./index.html" aria-current="page" >Inicio</a>
+                                    </div>
+        
+                                    <div class="col-4 li-menu_desktop">
+                                      <a class="nav-link nav-link-res text-white font-size_a_lg" id="nav-second-li-a" href="./pages/projects.html">Projectos</a>
+                                    </div>
+                          
+                                    <div class="col-4 li-menu_desktop">
+                                      <a class="nav-link nav-link-res text-white font-size_a_lg" id="nav-thirt-li-a" href="./pages/history.html">Historia</a>
+                                    </div>
+                            
+        
+                                  </div>
+
+
+
+
+
+
+
+
+
+                                     <div class="container ul-navbar-menu"  >
+        <div class=" row ul-navbar-menu">
+        
+          <div class="col-4 li-menu_desktop" id="special-carateristics-frist-li">
+            <a class="nav-link nav-link-res active text-white font-size_a_lg" id="nav-first-li-a" href="./index.html" aria-current="page" >Inicio</a>
+          </div>
+
+          <div class="col-4 li-menu_desktop">
+            <a class="nav-link nav-link-res text-white font-size_a_lg" id="nav-second-li-a" href="./pages/projects.html">Projectos</a>
+          </div>
+
+          <div class="col-4 li-menu_desktop">
+            <a class="nav-link nav-link-res text-white font-size_a_lg" id="nav-thirt-li-a" href="./pages/history.html">Historia</a>
+          </div>
+  
+
+        </div>
+      
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:645px){
+  body{
+    font-size: 10px;
+    background: rgb(0,168,255);
+    background: radial-gradient(circle,  #F08080 0%, #000 800%);
+
+}
+.li-menu-res{
+  padding-right:4rem;
+}
+
+.button-menu{
+  margin-left: 10rem;
+  margin-top: 2rem;
+  background: rgb(240,128,128);
+  background: radial-gradient(circle, rgba(240,128,128,1) 6%, rgba(232,124,124,1) 42%, rgba(213,114,114,1) 68%, rgba(197,105,105,1) 77%, rgba(148,79,79,1) 100%, rgba(0,0,0,1) 100%);
+}
+
+
+/* hover de los botnoces del navbar */
+ .font-size_a_lg{
+  font-size:1.4rem !important;
+  background-color: #F08080;
+  transition: background-color 3s;
+  padding: 0.6rem;
+  margin-right: 0.9rem;
+ 
+}
+
+.font-size_a_lg:hover{
+background: radial-gradient(circle, #F08080 0%, #000 2000%);
+cursor:pointer;
+
+}
+
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background: rgb(240,128,128);
+background: linear-gradient(180deg, rgba(240,128,128,1) 6%, rgba(232,124,124,1) 26%, rgba(192,103,103,1) 55%, rgba(145,78,78,1) 71%, rgba(121,65,65,1) 80%, rgba(96,51,51,1) 86%, rgba(74,39,39,1) 92%, rgba(0,0,0,1) 100%);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  border-right: none;
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+ 
+  .propsNavbar{
+    height:80px;
+    margin-top: -96px;
+  
+    z-index: 100;
+   
+    font-size:15px;
+    width:100%;
+   }
+ 
+
+ .ul-navbar-menu-res{
+  position: fixed;
+    margin-left: 49.1rem;
+    background: #F08080;
+}
+
+ .letter-title{
+   width:1.5rem;
+   height:3.7rem;
+ }
+ .font-s-title{
+  display: flex;
+ }
+#s-style{
+  width:5rem;
+}
+#d-style{
+  width: 1.5rem;
+}
+#dev{
+  font-size:2.2rem !important;
+  margin-left: -16px;
+  color:white;
+  transition: color 1s;
+}
+#dev:hover{
+  color: white;
+}
+
+
+
+
+   
+/* FIRST CONTENT  */
+
+.cont-1_section1{
+  
+  margin-top: 5rem;
+  padding:10px;
+}
+.first-content-res{
+  margin-top: 2.4rem;
+}
+.first-content-p1-res{
+  margin-left: 0;
+}
+
+/* CONTENIDO MAS CODIGO */
+
+
+.contenedor-code{
+  background-color: #f6f3f3;
+  border-radius: 0.3rem;
+
+
+}
+.color-yellow{
+color: rgb(252, 142, 6);
+}
+.color-violet{
+color: rgb(146, 18, 201);
+}
+.color-rojo{
+color: red;
+}
+.color-verde{
+color: rgb(3, 91, 5);
+}
+.color-azul{
+  color: blue;
+}
+.color-coments{
+ color: grey;
+}
+
+.explication-1{
+  margin-top:3rem;
+  font-size: 1.6rem;
+}
+
+#ejemplo1{
+  font-size: 0.9rem;
+  width: 20rem;
+}
+#ejemplo2{
+  font-size: 0.9rem;
+  width: 45rem;
+  height: 11rem;
+}
+#ejemplo3{
+  font-size: 1rem;
+width: 49rem;
+height: 26rem;
+}
+#ejemplo4{
+  font-size: 0.7rem;
+  width: 48rem;
+}
+#ejemplo5{
+width: 33.8rem;
+height: 15rem;
+font-size: 1rem;
+}
+#ejemplo6{
+width: 27rem;
+height: 13.5rem;
+font-size: 1rem;
+}
+#ejemplo7{
+  font-size: 0.9rem;
+  width: 49rem;
+  margin-right: 6rem;
+}
+#ejemplo-mini1{
+font-size: 1rem;
+ width: 20rem;
+ height: 7rem;
+}
+#ejemplo-mini2{
+font-size: 1rem;
+width: 28.5rem;
+height: 7rem;
+}
+#ejemplo-mini3{
+font-size: 1rem;
+width: 33rem;
+height: 7rem;
+}
+#ejemplo-mini4{
+font-size: 1rem;
+width: 43rem;
+height: 7rem;
+}
+#ejemplo-mini5{
+font-size: 1rem;
+width: 35rem;
+height: 7rem;
+}
+#ejemplo-mini6{
+font-size: 1rem;
+width: 30rem;
+height: 6rem;
+}
+#ejemplo-mini7{
+font-size: 1rem;
+width: 26.5rem;
+height: 5.5rem;
+}
+#ejemplo-mini8{
+font-size: 1rem;
+width: 26rem;
+height: 5.5rem;
+}
+#ejemplo-mini9{
+  width: 47rem;
+  height: 4rem;
+  font-size: 0.9rem;
+}
+#ejemplo-mini10{
+  width: 54em;
+  height: 4rem;
+  font-size: 0.9rem;
+}
+#ejemplo-mini11{
+  font-size: 0.9rem;
+  width: 48rem;
+  height: 4rem;
+}
+#ejemplo-mini12{
+  width: 29rem;
+  height: 6rem;
+  font-size: 1rem;
+}
+#ejemplo-mini13{
+  width: 48.3rem;
+  height: 4rem;
+  font-size: 0.8rem;
+}
+#ejemplo-mini14{
+  font-size: 1rem;
+  width: 41rem;
+  height: 7rem;
+}
+#ejemplo-mini15{
+font-size: 1rem;
+width: 25rem;
+height: 6rem;
+}
+
+.explication-2{
+  font-size: 1.6;
+}
+
+
+
+
+
+  /* RELOJ */
+
+
+/* reloj responsive */
+ 
+  .reloj{
+      background: linear-gradient(#F08080 0%,#020024 500%);
+      border: 2px solid #000;
+      display:inline-flex;
+      position: fixed;
+      margin-left:1100px;
+      border-radius:0.5rem;
+  }
+  .reloj div {
+      color: #fff;
+      padding: 5px 9px;
+      font-size: 20px;
+      font-family: monospace;
+     
+  }
+  .hora{
+   border-right:1px solid #000;
+  }
+  .minutos{
+      border-right:1px solid #000;
+  }
+
+
+/* CONTENT  */
+
+.first-content{
+  font-size: 1.6rem;
+  color:rgba(255,255,255,1);
+  margin-top: 2rem;
+  }
+
+
+/*  FOOTER */
+
+ 
+  .style-row-footer{
+      width:100%;
+   
+  
+  }
+  .link-container{
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  .git-container{
+    display: flex;
+    justify-content: flex-start;
+  }
+  #linkedin-img{
+    width: 4rem;
+    height: 4rem;
+    margin-right:0.5rem;
+  }
+  #github-img{
+      width: 4rem;
+      height: 4rem;
+      margin-left:0.5rem;
+  }
+
+/* ID */
+#seba1{
+ display:none
+  
+}
+
+
+}
